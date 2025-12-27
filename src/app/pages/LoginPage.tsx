@@ -35,7 +35,7 @@ export function LoginPage({ onLogin, onNavigateToSignUp }: LoginPageProps) {
           <div className="inline-flex items-center justify-center w-20 h-20 bg-green-600 rounded-full mb-4">
             <Sprout className="w-10 h-10 text-white" />
           </div>
-          <h1 className="text-green-900 mb-2">AgriConnect</h1>
+          <h1 className="text-green-900 mb-2">Mridah Greens</h1>
           <p className="text-gray-600">Your trusted agriculture partner</p>
         </div>
 

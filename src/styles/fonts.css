@@ -1,0 +1,21 @@
+/* Import Inter font as a fallback for non-Apple devices */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* San Francisco font stack for universal consistency */
+/* This will use San Francisco on Apple devices and Inter on others */
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Apply font to all elements */
+* {
+  font-family: var(--font-sans);
+}
+
+/* Ensure body uses the font */
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}

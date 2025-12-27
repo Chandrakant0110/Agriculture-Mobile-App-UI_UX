@@ -34,7 +34,7 @@ export function HomePage({
       <div className="bg-white border-b border-gray-200 sticky top-0 z-40">
         <div className="max-w-md mx-auto px-4 py-4">
           <div className="flex items-center justify-between mb-4">
-            <h1 className="text-green-900">AgriConnect</h1>
+            <h1 className="text-green-900">Mridah Greens</h1>
             <div className="flex items-center gap-3">
               <button 
                 onClick={onSearchClick}
